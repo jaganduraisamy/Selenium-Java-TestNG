@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <test name="Selenium-Test-Chrome">
+        <parameter name ="browserType" value="chrome"/>
+        <classes>
+            <class name="TestCase"/>
+        </classes>
+    </test>
+
+    <test name="Selenium-Test-Firefox">
+        <parameter name ="browserType" value="firefox"/>
+        <classes>
+            <class name="TestCase"/>
+        </classes>
+    </test>
+
+    <test name="Selenium-Test-Edge">
+        <parameter name ="browserType" value="edge"/>
+        <classes>
+            <class name="TestCase"/>
+        </classes>
+    </test>
+</suite>

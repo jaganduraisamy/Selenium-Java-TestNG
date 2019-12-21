@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-21T17:26:46 GMT+08:00" name="All Test Suite" finished-at="2019-12-21T17:27:06 GMT+08:00" duration-ms="19425">
+    <groups>
+    </groups>
+    <test started-at="2019-12-21T17:26:46 GMT+08:00" name="Selenium-Test-Chrome" finished-at="2019-12-21T17:27:06 GMT+08:00" duration-ms="19291">
+      <class name="TestCase">
+        <test-method is-config="true" signature="BeforeTest(java.lang.String)[pri:0, instance:TestCase@24b1d79b]" started-at="2019-12-21T17:26:46 GMT+08:00" name="BeforeTest" finished-at="2019-12-21T17:26:50 GMT+08:00" duration-ms="3864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="test()[pri:0, instance:TestCase@24b1d79b]" started-at="2019-12-21T17:26:50 GMT+08:00" name="test" finished-at="2019-12-21T17:27:05 GMT+08:00" duration-ms="14643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:TestCase@24b1d79b]" started-at="2019-12-21T17:27:05 GMT+08:00" name="AfterTest" finished-at="2019-12-21T17:27:06 GMT+08:00" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- TestCase -->
+    </test> <!-- Selenium-Test-Chrome -->
+    <test started-at="2019-12-21T17:26:46 GMT+08:00" name="Selenium-Test-Firefox" finished-at="2019-12-21T17:27:06 GMT+08:00" duration-ms="19425">
+      <class name="TestCase">
+        <test-method is-config="true" signature="BeforeTest(java.lang.String)[pri:0, instance:TestCase@5f71c76a]" started-at="2019-12-21T17:26:46 GMT+08:00" name="BeforeTest" finished-at="2019-12-21T17:26:50 GMT+08:00" duration-ms="3859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="test()[pri:0, instance:TestCase@5f71c76a]" started-at="2019-12-21T17:26:50 GMT+08:00" name="test" finished-at="2019-12-21T17:27:04 GMT+08:00" duration-ms="13473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:TestCase@5f71c76a]" started-at="2019-12-21T17:27:04 GMT+08:00" name="AfterTest" finished-at="2019-12-21T17:27:06 GMT+08:00" duration-ms="2066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- TestCase -->
+    </test> <!-- Selenium-Test-Firefox -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
